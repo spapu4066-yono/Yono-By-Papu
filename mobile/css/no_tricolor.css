@@ -1,0 +1,25 @@
+/* Uniform midnight blue theme across the app; no flag or tricolor overlays. */
+html,body,body.premium-dashboard{background:#070e1d!important;color:#e9f2ff!important}
+body::before,body::after,body.premium-dashboard::before,body.premium-dashboard::after{background-image:none!important;content:none!important}
+.header,.sidebar,.mobile-bottom-nav{background:#0b1930!important;border-color:#29466b!important}
+.card,.analytics-card,.worker-card,.health-box,.home-status-card,.home-engine-card,.home-bal-card{background:#102440!important;border-color:#31557f!important;color:#eef5ff!important}
+.btn-start{background:#1265b8!important;color:#fff!important}.btn-stop{background:#a72f49!important;color:#fff!important}
+.progress-fill,.number-group-header{background:#177bd1!important;color:#fff!important}
+#independenceSplash,.independence-content,.independence-wheel{display:none!important}
+/* Final global override: all surfaces, cards, controls, bottom navigation */
+:root{color-scheme:dark!important}
+html,body,body.premium-dashboard,.app,.main,.content,.page,.page-content,.home-page,.home-container,.home-main,.home-section,.home-engine-card,.engine-control-unit,.engine-card,.home-balance-grid,.home-bal-card,.header,.mobile-bottom-nav,.bottom-nav,.navbar,.sidebar,.footer,.panel,.card,.modal,.menu,.nav-item{background-color:#0b1629!important;background-image:none!important;box-shadow:none!important;color:#e9f2ff!important}
+.home-engine-card,.home-bal-card,.card,.panel,.header,.mobile-bottom-nav{border:1px solid #294467!important;border-radius:16px!important}
+.home-bal-card{background:#122944!important;min-width:0!important}
+.home-balance-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}
+.home-bal-title{font-size:11px!important;overflow-wrap:anywhere!important}
+.home-bal-value{color:#e9f2ff!important}
+.header *, .mobile-bottom-nav *, .home-engine-card *{text-shadow:none!important}
+
+/* NAVY FINAL: engine, header, navigation, overlays */
+body,html,#app,.app-container,.home-screen,.home-section,.home-engine-refgrid,.home-engine-card,.home-engine-panel,.home-engine-content,.home-engine-control,.home-status-card,.home-bal-card,.home-balance-grid,.header,.topbar,.sidebar,.bottom-nav,.mobile-bottom-nav,.bottom-navigation,.nav-bar,.bottom-menu,.footer,.card,.panel,.main-content{background:#0a172b!important;background-image:none!important;border-image:none!important;color:#edf4ff!important}
+.header,.topbar,.sidebar,.bottom-nav,.mobile-bottom-nav,.bottom-navigation,.bottom-menu,.home-engine-card,.home-bal-card{background:#10233e!important;background-image:none!important;border-color:#284568!important;border-image:none!important}
+.header::before,.header::after,.home-engine-card::before,.home-engine-card::after,.home-engine-refgrid::before,.home-engine-refgrid::after,.mobile-bottom-nav::before,.mobile-bottom-nav::after,.bottom-nav::before,.bottom-nav::after{background:none!important;background-image:none!important;box-shadow:none!important}
+.menu-btn,.sidebar a.active,.sidebar a:hover,.btn,.btn-start,.btn-stop,.home-engine-icon-rail div{background:#164a7a!important;background-image:none!important;border-image:none!important;color:#fff!important}
+.btn-stop{background:#a52c4a!important}
+.home-balance-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}

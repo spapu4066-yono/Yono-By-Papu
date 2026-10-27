@@ -1,0 +1,9 @@
+/* Final stylesheet loaded last: remove flag palette from every app surface. */
+:root{color-scheme:dark!important}html,body,body.premium-dashboard{background:#071326!important;background-image:none!important;color:#eaf2ff!important}
+body *,body *::before,body *::after{border-image:none!important}
+.header,.header::before,.header::after,.menu-btn,.mobile-bottom-nav,.mobile-bottom-nav::before,.mobile-bottom-nav::after,.sidebar,.sidebar a,.home-status-card,.home-status-card::before,.home-status-card::after,.home-engine-card,.home-engine-card::before,.home-engine-card::after,.home-bal-card,.home-bal-card::before,.home-bal-card::after,.home-engine-refgrid,.home-engine-refgrid::before,.home-engine-refgrid::after,.card,.panel,.modal-box,.home-engine-icon-rail div{background:#102542!important;background-image:none!important;border-color:#315277!important;box-shadow:none!important;color:#eaf2ff!important}
+.home-engine-card,.home-status-card{background:#0d203a!important}.home-bal-card{background:#122b4b!important}.home-balance-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}.home-bal-value{color:#fff!important}
+.home-engine-actions .btn-start,.btn-start{background:#145d9f!important;background-image:none!important}.home-engine-actions .btn-stop,.btn-stop{background:#842d50!important;background-image:none!important}
+.home-summary-box,.home-field-wrap,.home-field-wrap input,.home-field-wrap select,.home-engine-footer,.home-engine-notice{background:#102542!important;background-image:none!important;color:#eef5ff!important}
+.home-status-card *, .home-engine-card *{text-shadow:none!important}
+@media(min-width:900px){.home-balance-grid{grid-template-columns:repeat(6,minmax(0,1fr))!important}}
